@@ -1,90 +1,58 @@
-package guru.qa;
+package guru.qa.tests;
 
-import com.codeborne.selenide.Condition;
-import com.codeborne.selenide.Configuration;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
 
-import java.io.File;
+import static guru.qa.pages.RegistrationPage.*;
 
-import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Selectors.byText;
-import static com.codeborne.selenide.Selenide.*;
+import static guru.qa.tests.TestData.*;
 
 
-public class TextBoxTestsWithComments {
-    @BeforeAll
-    static void beforeAll() {
-        Configuration.startMaximized = true;
-    }
+
+public class TextBoxTests extends TestBase {
 
     @Test
     void fillFormTest() {
-        String firstName = "Denis";
-        String lastName = "Rodman";
-        String userEmail = "denis.rodman@gmail.com";
-        String phoneNumber = "1233211232";
-        String uploadPicture = "denis.jpg";
-        String month = "April";
-        String year = "1972";
-        String day = "25";
-        String subject = "English";
-        String hobbies = "Sports";
-        String gender = "Male";
-        String currentAddress = "Chicago Bulls center";
-        String state = "NCR";
-        String city = "Delhi";
+        registrationPage.openPage();
 
-        open("https://demoqa.com/automation-practice-form");
+        registrationPage.typeFirstName(firstName).
+                typeLastName(lastName);
 
-        $("[id=firstName]").setValue(firstName);
-        $("[id=lastName]").setValue(lastName);
-        $("[id=userEmail]").setValue(userEmail);
-        $(byText(gender)).click();
-        $("[id=userNumber]").setValue(phoneNumber);
+        setEmail(userEmail);
+
+        setGender(gender);
+
+        setPhoneNumber(phoneNumber);
+
         //Date of Birth section
-        $("[id=dateOfBirthInput]").click();
-        $(".react-datepicker__month-select").selectOption(month);
-        $(".react-datepicker__year-select").selectOption(year);
-        $$(".react-datepicker__day").find(text(day)).click();
+        registrationPage.calendar.setDate(day, month, year);
 
         //Subject
-        $("#subjectsInput").scrollTo().setValue(subject).pressEnter();
-        $(byText(hobbies)).click();
+        setSubject(subject);
+
+        setHobbies(hobbies);
 
         //Picture to select
-        $(By.xpath("//input[@id='uploadPicture']")).uploadFromClasspath(uploadPicture);
-        //$(By.xpath("//input[@id='uploadPicture']")).uploadFile(new File("src\\test\\java\\resources\\denis.jpg"));
+        uploadPicture(uploadPicture);
 
-        $("#currentAddress").setValue(currentAddress);
+        setAddress(currentAddress);
 
-        //State and city section
-        $(byText("Select State")).scrollTo().click();
-        $(byText(state)).click();
-        $(byText("Select City")).click();
-        $(byText(city)).click();
+        stateAndCity();
 
-        $("#submit").click();
+        submitForm();
+
 
         // Tests
-        $("#example-modal-sizes-title-lg").shouldHave(text("Thanks for submitting the form"));
-
-        validation("Student Name",firstName);
-        validation("Student Email",userEmail);
-        validation("Gender",gender);
-        validation("Mobile",phoneNumber);
-        validation("Date of Birth",day + " " + month + "," + year);
-        validation("Subjects",subject);
-        validation("Hobbies",hobbies);
-        validation("Picture",uploadPicture);
-        validation("Address",currentAddress);
-        validation("State and City",state + " " + city);
+        registrationPage.validation("Student Name", firstName).
+                validation("Student Email", userEmail).
+                validation("Gender", gender).
+                validation("Mobile", phoneNumber).
+                validation("Date of Birth", day + " " + month + "," + year).
+                validation("Subjects", subject).
+                validation("Hobbies", hobbies).
+                validation("Picture", uploadPicture).
+                validation("Address", currentAddress);
 
     }
 
-    void validation(String label, String value) {
-        $(".table-responsive").$(byText(label)).parent().shouldHave(text(value));
-    }
 
 }
