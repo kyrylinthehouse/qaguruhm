@@ -13,7 +13,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
 
-public class TextBoxTests {
+public class TextBoxTestsWithComments {
     @BeforeAll
     static void beforeAll() {
         Configuration.startMaximized = true;
@@ -25,7 +25,7 @@ public class TextBoxTests {
         String lastName = "Rodman";
         String userEmail = "denis.rodman@gmail.com";
         String phoneNumber = "1233211232";
-        String uploadPicture = "denis";
+        String uploadPicture = "denis.jpg";
         String month = "April";
         String year = "1972";
         String day = "25";
@@ -47,21 +47,22 @@ public class TextBoxTests {
         $("[id=dateOfBirthInput]").click();
         $(".react-datepicker__month-select").selectOption(month);
         $(".react-datepicker__year-select").selectOption(year);
-        $$(".react-datepicker__day").find(Condition.text(day)).click();
+        $$(".react-datepicker__day").find(text(day)).click();
 
         //Subject
-        $("#subjectsInput").setValue(subject).pressEnter();
+        $("#subjectsInput").scrollTo().setValue(subject).pressEnter();
         $(byText(hobbies)).click();
 
         //Picture to select
-        $(By.xpath("//input[@id='uploadPicture']")).uploadFile(new File("src\\test\\java\\resources\\denis.jpg"));
+        $(By.xpath("//input[@id='uploadPicture']")).uploadFromClasspath(uploadPicture);
+        //$(By.xpath("//input[@id='uploadPicture']")).uploadFile(new File("src\\test\\java\\resources\\denis.jpg"));
 
         $("#currentAddress").setValue(currentAddress);
 
         //State and city section
-        $(By.xpath("//*[contains(text(),'Select State')]")).click();
+        $(byText("Select State")).scrollTo().click();
         $(byText(state)).click();
-        $(By.xpath("//*[contains(text(),'Select City')]")).click();
+        $(byText("Select City")).click();
         $(byText(city)).click();
 
         $("#submit").click();
