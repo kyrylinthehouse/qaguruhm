@@ -8,7 +8,7 @@ import org.junit.jupiter.api.BeforeAll;
 public class TestBase {
 
     RegistrationPage registrationPage = new RegistrationPage();
-    public static Faker faker = new Faker();
+
 
     @BeforeAll
     static void beforeAll() {
