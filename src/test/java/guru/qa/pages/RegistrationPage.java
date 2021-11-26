@@ -1,9 +1,13 @@
 package guru.qa.pages;
 import com.codeborne.selenide.SelenideElement;
+import com.codeborne.selenide.WebDriverRunner;
 import com.github.javafaker.Faker;
 import guru.qa.pages.components.CalendarComponent;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
@@ -143,6 +147,10 @@ public class RegistrationPage {
 
     public static void setEmail(String email) {
         $("[id=userEmail]").setValue(email);
+    }
+    private byte[] getScreenshot() {
+        final WebDriver driver = WebDriverRunner.getWebDriver();
+        return ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
     }
 
     public static void setPhoneNumber(String number) {
