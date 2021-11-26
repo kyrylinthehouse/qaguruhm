@@ -17,8 +17,8 @@ public class TestBase {
 
     @BeforeAll
     static void beforeAll() {
-
-        Configuration.browserSize = "1366x768";
+        Configuration.startMaximized = true;
+        //Configuration.browserSize = "1366x768";
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
         Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub/";
 
@@ -34,5 +34,6 @@ public class TestBase {
         Attach.screenshotAs("Last Screenshot");
         Attach.pageSource();
         Attach.browserConsoleLogs();
+        Attach.addVideo();
     }
 }
