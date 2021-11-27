@@ -9,6 +9,8 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
+import java.io.File;
+
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
@@ -162,7 +164,8 @@ public class RegistrationPage {
     }
 
     public static void uploadPicture(String picture){
-        $(By.xpath("//input[@id='uploadPicture']")).uploadFromClasspath(picture);
+        //$(By.xpath("//input[@id='uploadPicture']")).uploadFromClasspath(picture);
+        $(By.xpath("//input[@id='uploadPicture']")).uploadFile(new File("src\\test\\java\\resources\\denis.jpg"));
     }
 
     public static void submitForm(){
