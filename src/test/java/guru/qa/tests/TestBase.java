@@ -20,13 +20,13 @@ public class TestBase {
         Configuration.startMaximized = true;
         //Configuration.browserSize = "1366x768";
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
-//        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub/";
-//
-//        DesiredCapabilities capabilities = new DesiredCapabilities();
-//        capabilities.setCapability("enableVNC", true);
-//        capabilities.setCapability("enableVideo", true);
-//
-//        Configuration.browserCapabilities = capabilities;
+        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub/";
+
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setCapability("enableVNC", true);
+        capabilities.setCapability("enableVideo", true);
+
+        Configuration.browserCapabilities = capabilities;
     }
 
     @AfterEach
