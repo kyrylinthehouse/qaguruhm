@@ -165,7 +165,7 @@ public class RegistrationPage {
 
     public static void uploadPicture(String picture){
         //$(By.xpath("//input[@id='uploadPicture']")).uploadFromClasspath(picture);
-        $(By.xpath("//input[@id='uploadPicture']")).uploadFile(new File("src\\test\\java\\resources\\denis.jpg"));
+        $(By.xpath("//input[@id='uploadPicture']")).uploadFile(new File("src\\test\\resources\\denis.jpg"));
     }
 
     public static void submitForm(){
