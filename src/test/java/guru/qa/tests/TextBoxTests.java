@@ -48,7 +48,7 @@ public class TextBoxTests extends TestBase {
         setHobbies(hobbies);
 
         //Picture to select
-        uploadPicture(uploadPicture);
+       // uploadPicture(uploadPicture);
 
         setAddress(currentAddress);
 
@@ -65,7 +65,7 @@ public class TextBoxTests extends TestBase {
                 validation("Date of Birth", day + " " + month + "," + year).
                 validation("Subjects", subject).
                 validation("Hobbies", hobbies).
-                validation("Picture", uploadPicture).
+               // validation("Picture", uploadPicture).
                 validation("Address", currentAddress);
 
     }
