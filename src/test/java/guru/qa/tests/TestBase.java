@@ -5,6 +5,7 @@ import com.codeborne.selenide.logevents.SelenideLogger;
 import com.github.javafaker.Faker;
 import guru.qa.helpers.Attach;
 import guru.qa.pages.RegistrationPage;
+import guru.qa.tests.properties.OwnerTests;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
@@ -15,12 +16,13 @@ public class TestBase {
     RegistrationPage registrationPage = new RegistrationPage();
 
 
+
     @BeforeAll
     static void beforeAll() {
         //Configuration.startMaximized = true;
         Configuration.browserSize = "1366x768";
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
-        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub/";
+        Configuration.remote = OwnerTests.getSelenide();
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("enableVNC", true);

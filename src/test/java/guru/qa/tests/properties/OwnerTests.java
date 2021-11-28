@@ -10,19 +10,16 @@ import static java.lang.String.format;
 @Tag("properties")
 public class OwnerTests {
     public static CredentialsConfig credentials = ConfigFactory.create(CredentialsConfig.class);
-    @Test
-    void readCredentialsTes() {
 
-        String login = credentials.login();
-        String password = credentials.password();
-
-//        System.out.println(login);
-//        System.out.println(password);
-
-        String message = format("I login as %s with password %s", login, password);
-
-        System.out.println(message);
+        public static String getSelenide(){
+            return format("https://%s:%s@selenoid.autotests.cloud/wd/hub/", credentials.login(), credentials.password());
+        }
 
 
-    }
+
+
+
+
+
+        
 }
