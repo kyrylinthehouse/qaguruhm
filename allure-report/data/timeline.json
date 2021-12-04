@@ -1,0 +1,240 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-KQCRUKFM",
+    "children" : [ {
+      "name" : "28452@LAPTOP-KQCRUKFM.Test worker(16)",
+      "children" : [ {
+        "name" : "readCredentialsTes()",
+        "uid" : "6707043e3ae97511",
+        "parentUid" : "79b1ec4bf9a7c764218967f807606227",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638041850713,
+          "stop" : 1638041850775,
+          "duration" : 62
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "79b1ec4bf9a7c764218967f807606227"
+    }, {
+      "name" : "4152@LAPTOP-KQCRUKFM.Test worker(12)",
+      "children" : [ {
+        "name" : "someTest4()",
+        "uid" : "64576189b01e4c50",
+        "parentUid" : "f92c4a58da5afe98af3c3c997fd55f5c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638030500797,
+          "stop" : 1638030500829,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f92c4a58da5afe98af3c3c997fd55f5c"
+    }, {
+      "name" : "17708@LAPTOP-KQCRUKFM.Test worker(16)",
+      "children" : [ {
+        "name" : "fillFormTest()",
+        "uid" : "a55f20abb9b6c841",
+        "parentUid" : "54e417b02927145556e9231595960c20",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638626941590,
+          "stop" : 1638626964837,
+          "duration" : 23247
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "54e417b02927145556e9231595960c20"
+    }, {
+      "name" : "23700@LAPTOP-KQCRUKFM.Test worker(16)",
+      "children" : [ {
+        "name" : "readCredentialsTes()",
+        "uid" : "3372a43587c2781e",
+        "parentUid" : "1c85d575d9c3a23cdb58cf781a68f130",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638040959911,
+          "stop" : 1638040959942,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1c85d575d9c3a23cdb58cf781a68f130"
+    }, {
+      "name" : "17996@LAPTOP-KQCRUKFM.Test worker(16)",
+      "children" : [ {
+        "name" : "readCredentialsTes()",
+        "uid" : "d7fadef54e300421",
+        "parentUid" : "5573142970c3ed6f883925147b6d8eea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638041410934,
+          "stop" : 1638041410975,
+          "duration" : 41
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5573142970c3ed6f883925147b6d8eea"
+    }, {
+      "name" : "25520@LAPTOP-KQCRUKFM.Test worker(12)",
+      "children" : [ {
+        "name" : "someTest4()",
+        "uid" : "161b9d47fb395930",
+        "parentUid" : "f8cceafbf6253bc3c008bfed4fdb2bc4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638033921723,
+          "stop" : 1638033921738,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f8cceafbf6253bc3c008bfed4fdb2bc4"
+    }, {
+      "name" : "9284@LAPTOP-KQCRUKFM.Test worker(16)",
+      "children" : [ {
+        "name" : "readCredentialsTes()",
+        "uid" : "180e2d729ea22a86",
+        "parentUid" : "19d6a6c2dbde31f76bf956709f7f0a05",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638127759193,
+          "stop" : 1638127759255,
+          "duration" : 62
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "19d6a6c2dbde31f76bf956709f7f0a05"
+    }, {
+      "name" : "11332@LAPTOP-KQCRUKFM.Test worker(16)",
+      "children" : [ {
+        "name" : "readCredentialsTes()",
+        "uid" : "ab14ec5e03bb7f3b",
+        "parentUid" : "a40cd8f030719203106b0ce57714d3ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638041377229,
+          "stop" : 1638041377276,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a40cd8f030719203106b0ce57714d3ac"
+    }, {
+      "name" : "24808@LAPTOP-KQCRUKFM.Test worker(12)",
+      "children" : [ {
+        "name" : "someTest4()",
+        "uid" : "2963ed469cacad51",
+        "parentUid" : "6017229f538721dbbfa75776002aeb30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638033940094,
+          "stop" : 1638033940125,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6017229f538721dbbfa75776002aeb30"
+    }, {
+      "name" : "24732@LAPTOP-KQCRUKFM.Test worker(16)",
+      "children" : [ {
+        "name" : "readCredentialsTes()",
+        "uid" : "a8d8933501f3432f",
+        "parentUid" : "c87351ee91ef756228cbeff0eee7eade",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638043287118,
+          "stop" : 1638043287165,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c87351ee91ef756228cbeff0eee7eade"
+    }, {
+      "name" : "11560@LAPTOP-KQCRUKFM.Test worker(16)",
+      "children" : [ {
+        "name" : "readCredentialsTes()",
+        "uid" : "167e22b16ee17dcf",
+        "parentUid" : "0855f574f5d0575b21341f8679e8555d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638043236312,
+          "stop" : 1638043236358,
+          "duration" : 46
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0855f574f5d0575b21341f8679e8555d"
+    } ],
+    "uid" : "3c7ae4eeed405a0a54d72fc42fce78c9"
+  } ]
+}

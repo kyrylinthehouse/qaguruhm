@@ -1,0 +1,115 @@
+{
+  "uid" : "180e2d729ea22a86",
+  "name" : "readCredentialsTes()",
+  "fullName" : "guru.qa.tests.properties.OwnerTests.readCredentialsTes",
+  "historyId" : "ec522ce96ebcb234f7836f818abbdaa9",
+  "time" : {
+    "start" : 1638127759193,
+    "stop" : 1638127759255,
+    "duration" : 62
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 6,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "properties"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:guru.qa.tests.properties.OwnerTests]/[method:readCredentialsTes()]"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-KQCRUKFM"
+  }, {
+    "name" : "thread",
+    "value" : "9284@LAPTOP-KQCRUKFM.Test worker(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "guru.qa.tests.properties.OwnerTests"
+  }, {
+    "name" : "testClass",
+    "value" : "guru.qa.tests.properties.OwnerTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "readCredentialsTes"
+  }, {
+    "name" : "suite",
+    "value" : "guru.qa.tests.properties.OwnerTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a8d8933501f3432f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638043287118,
+        "stop" : 1638043287165,
+        "duration" : 47
+      }
+    }, {
+      "uid" : "167e22b16ee17dcf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638043236312,
+        "stop" : 1638043236358,
+        "duration" : 46
+      }
+    }, {
+      "uid" : "6707043e3ae97511",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638041850713,
+        "stop" : 1638041850775,
+        "duration" : 62
+      }
+    }, {
+      "uid" : "d7fadef54e300421",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638041410934,
+        "stop" : 1638041410975,
+        "duration" : 41
+      }
+    }, {
+      "uid" : "ab14ec5e03bb7f3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638041377229,
+        "stop" : 1638041377276,
+        "duration" : 47
+      }
+    }, {
+      "uid" : "3372a43587c2781e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638040959911,
+        "stop" : 1638040959942,
+        "duration" : 31
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "properties" ]
+  },
+  "source" : "180e2d729ea22a86.json",
+  "parameterValues" : [ ]
+}

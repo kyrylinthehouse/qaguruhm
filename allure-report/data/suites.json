@@ -1,0 +1,68 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "guru.qa.tests.properties.SystemPropertiesTests",
+    "children" : [ {
+      "name" : "someTest4()",
+      "uid" : "2963ed469cacad51",
+      "parentUid" : "2d9786aa12320f98c4af8bea03984d92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638033940094,
+        "stop" : 1638033940125,
+        "duration" : 31
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2d9786aa12320f98c4af8bea03984d92"
+  }, {
+    "name" : "guru.qa.tests.properties.OwnerTests",
+    "children" : [ {
+      "name" : "readCredentialsTes()",
+      "uid" : "180e2d729ea22a86",
+      "parentUid" : "8c606cfbb24cc0522af4e794996431bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638127759193,
+        "stop" : 1638127759255,
+        "duration" : 62
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 6,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8c606cfbb24cc0522af4e794996431bb"
+  }, {
+    "name" : "guru.qa.tests.TextBoxTests",
+    "children" : [ {
+      "name" : "fillFormTest()",
+      "uid" : "a55f20abb9b6c841",
+      "parentUid" : "c36e361c1eff304ed213deb4152ed95f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638626941590,
+        "stop" : 1638626964837,
+        "duration" : 23247
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c36e361c1eff304ed213deb4152ed95f"
+  } ]
+}

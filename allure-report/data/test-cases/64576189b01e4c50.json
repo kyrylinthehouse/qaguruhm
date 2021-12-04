@@ -1,0 +1,65 @@
+{
+  "uid" : "64576189b01e4c50",
+  "name" : "someTest4()",
+  "fullName" : "guru.qa.tests.properties.SystemPropertiesTests.someTest4",
+  "historyId" : "4d61dfffa466b3590070383180c955f0",
+  "time" : {
+    "start" : 1638030500797,
+    "stop" : 1638030500829,
+    "duration" : 32
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "properties"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:guru.qa.tests.properties.SystemPropertiesTests]/[method:someTest4()]"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-KQCRUKFM"
+  }, {
+    "name" : "thread",
+    "value" : "4152@LAPTOP-KQCRUKFM.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "guru.qa.tests.properties.SystemPropertiesTests"
+  }, {
+    "name" : "testClass",
+    "value" : "guru.qa.tests.properties.SystemPropertiesTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "someTest4"
+  }, {
+    "name" : "suite",
+    "value" : "guru.qa.tests.properties.SystemPropertiesTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "properties" ]
+  },
+  "source" : "64576189b01e4c50.json",
+  "parameterValues" : [ ]
+}

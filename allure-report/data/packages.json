@@ -1,0 +1,76 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "guru.qa.tests",
+    "children" : [ {
+      "name" : "properties",
+      "children" : [ {
+        "name" : "SystemPropertiesTests",
+        "children" : [ {
+          "name" : "someTest4",
+          "uid" : "2963ed469cacad51",
+          "parentUid" : "660414e1fbf9c833ba3332304b61a83d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1638033940094,
+            "stop" : 1638033940125,
+            "duration" : 31
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 2,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "660414e1fbf9c833ba3332304b61a83d"
+      }, {
+        "name" : "OwnerTests",
+        "children" : [ {
+          "name" : "readCredentialsTes",
+          "uid" : "180e2d729ea22a86",
+          "parentUid" : "c971365022192f67652cb876dd29bc61",
+          "status" : "passed",
+          "time" : {
+            "start" : 1638127759193,
+            "stop" : 1638127759255,
+            "duration" : 62
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 6,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c971365022192f67652cb876dd29bc61"
+      } ],
+      "uid" : "f737a7e2c5e1633f06a33d932320d4c6"
+    }, {
+      "name" : "TextBoxTests",
+      "children" : [ {
+        "name" : "fillFormTest",
+        "uid" : "a55f20abb9b6c841",
+        "parentUid" : "6fe1aba95952a7c16247d3187f385acb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638626941590,
+          "stop" : 1638626964837,
+          "duration" : 23247
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6fe1aba95952a7c16247d3187f385acb"
+    } ],
+    "uid" : "guru.qa.tests"
+  } ]
+}

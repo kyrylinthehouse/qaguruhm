@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Nov 28 21:29:19 IST 2021","Sun Nov 28 21:29:19 IST 2021","62","","guru.qa.tests.properties.OwnerTests","","guru.qa.tests.properties.OwnerTests","readCredentialsTes","readCredentialsTes()",""
+"passed","Sat Nov 27 19:25:40 IST 2021","Sat Nov 27 19:25:40 IST 2021","31","","guru.qa.tests.properties.SystemPropertiesTests","","guru.qa.tests.properties.SystemPropertiesTests","someTest4","someTest4()",""
+"passed","Sat Dec 04 16:09:01 IST 2021","Sat Dec 04 16:09:24 IST 2021","23247","","guru.qa.tests.TextBoxTests","","guru.qa.tests.TextBoxTests","fillFormTest","fillFormTest()",""

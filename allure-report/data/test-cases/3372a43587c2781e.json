@@ -1,0 +1,62 @@
+{
+  "uid" : "3372a43587c2781e",
+  "name" : "readCredentialsTes()",
+  "fullName" : "guru.qa.tests.properties.OwnerTests.readCredentialsTes",
+  "historyId" : "ec522ce96ebcb234f7836f818abbdaa9",
+  "time" : {
+    "start" : 1638040959911,
+    "stop" : 1638040959942,
+    "duration" : 31
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:guru.qa.tests.properties.OwnerTests]/[method:readCredentialsTes()]"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-KQCRUKFM"
+  }, {
+    "name" : "thread",
+    "value" : "23700@LAPTOP-KQCRUKFM.Test worker(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "guru.qa.tests.properties.OwnerTests"
+  }, {
+    "name" : "testClass",
+    "value" : "guru.qa.tests.properties.OwnerTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "readCredentialsTes"
+  }, {
+    "name" : "suite",
+    "value" : "guru.qa.tests.properties.OwnerTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3372a43587c2781e.json",
+  "parameterValues" : [ ]
+}
