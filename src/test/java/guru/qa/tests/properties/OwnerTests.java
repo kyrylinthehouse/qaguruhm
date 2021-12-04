@@ -12,7 +12,7 @@ public class OwnerTests {
     public static CredentialsConfig credentials = ConfigFactory.create(CredentialsConfig.class);
 
         public static String getSelenide(){
-            return format("https://%s:%s@selenoid.autotests.cloud/wd/hub/", credentials.login(), credentials.password());
+            return format("https://%s:%s@%s", credentials.login(), credentials.password(), credentials.selenoidUrl());
         }
 
 
@@ -21,5 +21,5 @@ public class OwnerTests {
 
 
 
-        
+
 }

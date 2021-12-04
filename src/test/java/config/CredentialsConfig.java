@@ -7,5 +7,6 @@ public interface CredentialsConfig extends Config {
 
         String login();
         String password();
+        String selenoidUrl();
         String owner();
 }
